@@ -45,7 +45,7 @@ class ColdStartRecorder(Node):
         self.get_logger().info('  UNIT ZERO recorder -- COLD START recovery online')
         self.get_logger().info('  Publishing the recovered boot log on:')
         self.get_logger().info('  /unit_zero/recovery_log')
-        self.get_logger().info('  Stop digging. Start wiretapping. What topics are on the wire?')
+        self.get_logger().info('  Stop digging. Start echoing.... What topics are on the wire?')
         self.get_logger().info('  dont forget you can open another terminal....')
         self.get_logger().info('=' * 64)
 
