@@ -44,9 +44,8 @@ class ColdStartRecorder(Node):
         self.get_logger().info('=' * 64)
         self.get_logger().info('  UNIT ZERO recorder -- COLD START recovery online')
         self.get_logger().info('  Publishing the recovered boot log on:')
-        self.get_logger().info('    /unit_zero/recovery_log')
-        self.get_logger().info('  In another terminal:')
-        self.get_logger().info('    ros2 topic echo /unit_zero/recovery_log')
+        self.get_logger().info('  /unit_zero/recovery_log')
+        self.get_logger().info('  Stop digging. Start wiretapping. What topics are on the wire?')
         self.get_logger().info('=' * 64)
 
     def _tick(self):
