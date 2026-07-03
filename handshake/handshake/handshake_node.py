@@ -54,6 +54,7 @@ class HandshakeNode(Node):
         self.get_logger().info('  UNIT ZERO handshake process -- state: DORMANT')
         self.get_logger().info('  Explore this node with the ROS 2 command-line tools.')
         self.get_logger().info('  It is waiting to hear the wake word from Stage 1.')
+        self.get_logger().info('  **Dial the service directly** ')
         self.get_logger().info('=' * 64)
 
     def _tick(self):
